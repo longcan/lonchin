@@ -2,6 +2,7 @@ package lonchin.user.dal.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -19,6 +20,7 @@ import lonchin.user.common.model.AbstractTimeEntity;
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @ApiModel(value = "UserAccount对象", description = "用户登录表")
+@TableName("user_account")
 public class UserAccount extends AbstractTimeEntity {
 
     private static final long serialVersionUID = 6339011254723244841L;
