@@ -37,6 +37,7 @@
         <module>lonchin-order</module>
         <module>lonchin-sns</module>
         <module>lonchin-course</module>
+        <module>lonchin-auth</module>
     </modules>
 
     <dependencyManagement>
